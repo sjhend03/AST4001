@@ -1,0 +1,6 @@
+ set term png
+ set output "rho-vs-r.png"
+ plot "stellarstructure.txt" every :: 7 using 2:4 w l
+ set output "p-vs-r.png"
+ plot "stellarstructure.txt" every :: 7 using 2:5 w l
+ quit
