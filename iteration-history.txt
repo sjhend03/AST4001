@@ -1,0 +1,214 @@
+
+Calling DoAStar for n =     32
+
+
+Calling DoAStar for n =     32
+
+
+At the end of iteration    1289,   transf1max =   9.97415E-02,   transffmax =   3.79499E-13
+   dVolfmin =   3.40482E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    6.09553E+02  6.55529E-05  1.39861E+00  1.29237E+00  6.21891E+04 -1.11706E+01  8.32278E-08
+   32    3.30139E+03  1.46087E-06  2.46828E-03  1.02345E-01  1.99005E+06
+
+At the end of iteration    2055,   transf1max =   9.99943E-03,   transffmax =   6.85765E-14
+   dVolfmin =   3.41064E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    6.25984E+02  6.05252E-05  1.22444E+00  1.22542E+00  6.21891E+04 -1.05919E+01  7.89158E-08
+   32    3.37403E+03  1.38512E-06  2.25869E-03  9.87762E-02  1.99005E+06
+
+At the end of iteration    2828,   transf1max =   9.99431E-04,   transffmax =   9.79344E-14
+   dVolfmin =   3.41123E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    6.27687E+02  6.00337E-05  1.20791E+00  1.21878E+00  6.21891E+04 -1.05345E+01  7.84880E-08
+   32    3.38162E+03  1.37753E-06  2.23810E-03  9.84151E-02  1.99005E+06
+
+At the end of iteration    3602,   transf1max =   9.97787E-05,   transffmax =   5.51854E-13
+   dVolfmin =   3.41129E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    6.27858E+02  5.99847E-05  1.20627E+00  1.21811E+00  6.21891E+04 -1.05287E+01  7.84477E-08
+   32    3.38238E+03  1.37677E-06  2.23604E-03  9.83790E-02  1.99005E+06
+
+At the end of iteration    4375,   transf1max =   9.99299E-06,   transffmax =   1.74298E-13
+   dVolfmin =   3.41130E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    6.27875E+02  5.99798E-05  1.20610E+00  1.21805E+00  6.21891E+04 -1.05282E+01  7.84410E-08
+   32    3.38246E+03  1.37670E-06  2.23584E-03  9.83754E-02  1.99005E+06
+
+At the end of iteration    5149,   transf1max =   9.97858E-07,   transffmax =   6.38177E-14
+   dVolfmin =   3.41130E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    6.27877E+02  5.99793E-05  1.20609E+00  1.21804E+00  6.21891E+04 -1.05281E+01  7.84405E-08
+   32    3.38246E+03  1.37669E-06  2.23582E-03  9.83750E-02  1.99005E+06
+
+Calling DoAStar for n =     64
+
+
+At the end of iteration      38,   transf1max =   9.77139E-02,   transffmax =   3.18514E-13
+   dVolfmin =   3.56871E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    4.95999E+02  6.08350E-05  1.23490E+00  1.22960E+00  3.10945E+04 -8.43546E+00 -8.88178E-15
+   64    3.43057E+03  8.67412E-07  1.03535E-03  7.23010E-02  1.99005E+06
+
+At the end of iteration    1891,   transf1max =   9.99288E-03,   transffmax =   2.70334E-13
+   dVolfmin =   3.56909E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    5.01631E+02  5.88087E-05  1.16711E+00  1.20214E+00  3.10945E+04 -8.24710E+00 -3.01981E-14
+   64    3.46374E+03  8.47408E-07  9.95858E-04  7.11851E-02  1.99005E+06
+
+At the end of iteration    4950,   transf1max =   9.99580E-04,   transffmax =   6.16047E-12
+   dVolfmin =   3.56960E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    5.03001E+02  5.83295E-05  1.15130E+00  1.19560E+00  3.10945E+04 -8.20224E+00  6.39488E-14
+   64    3.47145E+03  8.42828E-07  9.86903E-04  7.09284E-02  1.99005E+06
+
+At the end of iteration    8012,   transf1max =   9.99458E-05,   transffmax =   6.46988E-13
+   dVolfmin =   3.56966E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    5.03139E+02  5.82817E-05  1.14973E+00  1.19495E+00  3.10945E+04 -8.19775E+00  2.36255E-13
+   64    3.47223E+03  8.42370E-07  9.86009E-04  7.09026E-02  1.99005E+06
+
+At the end of iteration   11074,   transf1max =   9.99521E-06,   transffmax =   4.02633E-13
+   dVolfmin =   3.56966E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    5.03152E+02  5.82769E-05  1.14957E+00  1.19488E+00  3.10945E+04 -8.19731E+00  1.61648E-13
+   64    3.47231E+03  8.42324E-07  9.85919E-04  7.09001E-02  1.99005E+06
+
+At the end of iteration   14136,   transf1max =   9.99603E-07,   transffmax =   3.67149E-13
+   dVolfmin =   3.56966E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    5.03154E+02  5.82765E-05  1.14956E+00  1.19488E+00  3.10945E+04 -8.19726E+00  5.68434E-14
+   64    3.47231E+03  8.42319E-07  9.85910E-04  7.08998E-02  1.99005E+06
+
+Calling DoAStar for n =    128
+
+
+At the end of iteration      49,   transf1max =   9.97277E-02,   transffmax =   1.63320E-12
+   dVolfmin =   3.68145E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    3.98161E+02  5.88015E-05  1.16687E+00  1.20204E+00  1.55473E+04 -6.54519E+00  3.46390E-14
+  128    3.50867E+03  5.36361E-07  4.64663E-04  5.24766E-02  1.99005E+06
+
+At the end of iteration    3104,   transf1max =   9.99884E-03,   transffmax =   1.50803E-12
+   dVolfmin =   3.68085E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    3.99900E+02  5.80378E-05  1.14172E+00  1.19161E+00  1.55473E+04 -6.48839E+00  8.88178E-15
+  128    3.52378E+03  5.30834E-07  4.56710E-04  5.21154E-02  1.99005E+06
+
+At the end of iteration   15273,   transf1max =   9.99945E-04,   transffmax =   1.61169E-12
+   dVolfmin =   3.68126E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    4.00996E+02  5.75633E-05  1.12621E+00  1.18511E+00  1.55473E+04 -6.45298E+00  1.67422E-12
+  128    3.53159E+03  5.27988E-07  4.52637E-04  5.19290E-02  1.99005E+06
+
+At the end of iteration   27442,   transf1max =   9.99811E-05,   transffmax =   1.46903E-12
+   dVolfmin =   3.68130E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    4.01106E+02  5.75160E-05  1.12467E+00  1.18446E+00  1.55473E+04 -6.44945E+00  5.32907E-15
+  128    3.53237E+03  5.27705E-07  4.52231E-04  5.19104E-02  1.99005E+06
+
+At the end of iteration   39611,   transf1max =   9.99869E-06,   transffmax =   1.28164E-12
+   dVolfmin =   3.68130E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    4.01117E+02  5.75113E-05  1.12451E+00  1.18439E+00  1.55473E+04 -6.44909E+00  6.57252E-14
+  128    3.53245E+03  5.27676E-07  4.52191E-04  5.19085E-02  1.99005E+06
+
+At the end of iteration   51780,   transf1max =   9.99948E-07,   transffmax =   1.30794E-12
+   dVolfmin =   3.68130E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    4.01118E+02  5.75108E-05  1.12450E+00  1.18439E+00  1.55473E+04 -6.44906E+00 -2.66454E-14
+  128    3.53246E+03  5.27673E-07  4.52187E-04  5.19084E-02  1.99005E+06
+
+Calling DoAStar for n =    256
+
+
+At the end of iteration      65,   transf1max =   9.94488E-02,   transffmax =   6.18113E-12
+   dVolfmin =   3.76256E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    3.17764E+02  5.78389E-05  1.13521E+00  1.18889E+00  7.77363E+03 -5.13807E+00  1.05693E-13
+  256    3.55996E+03  3.38795E-07  2.16075E-04  3.86324E-02  1.99005E+06
+
+At the end of iteration    1138,   transf1max =   9.99708E-03,   transffmax =   6.40003E-12
+   dVolfmin =   3.76187E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    3.18322E+02  5.75355E-05  1.12530E+00  1.18473E+00  7.77363E+03 -5.12009E+00 -3.64153E-14
+  256    3.56591E+03  3.37442E-07  2.14638E-04  3.85295E-02  1.99005E+06
+
+At the end of iteration   43590,   transf1max =   9.99987E-04,   transffmax =   6.41518E-12
+   dVolfmin =   3.76213E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    3.18910E+02  5.72180E-05  1.11497E+00  1.18036E+00  7.77363E+03 -5.10123E+00  6.03961E-14
+  256    3.57303E+03  3.35819E-07  2.12921E-04  3.84059E-02  1.99005E+06
+
+At the end of iteration   92090,   transf1max =   9.99965E-05,   transffmax =   6.31745E-12
+   dVolfmin =   3.76216E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    3.18997E+02  5.71710E-05  1.11345E+00  1.17972E+00  7.77363E+03 -5.09844E+00  3.81917E-14
+  256    3.57381E+03  3.35640E-07  2.12732E-04  3.83922E-02  1.99005E+06
+
+At the end of iteration  140593,   transf1max =   9.99992E-06,   transffmax =   6.12154E-12
+   dVolfmin =   3.76216E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    3.19006E+02  5.71663E-05  1.11329E+00  1.17965E+00  7.77363E+03 -5.09816E+00 -9.23706E-14
+  256    3.57389E+03  3.35623E-07  2.12713E-04  3.83909E-02  1.99005E+06
+
+At the end of iteration  189097,   transf1max =   9.99993E-07,   transffmax =   5.56006E-12
+   dVolfmin =   3.76216E-01,   ntriesmax =       1
+
+   ir      rr           rho          p            T6           Mr           gr           NetAccelR
+
+    1    3.19007E+02  5.71658E-05  1.11328E+00  1.17965E+00  7.77363E+03 -5.09813E+00 -9.94760E-14
+  256    3.57390E+03  3.35621E-07  2.12711E-04  3.83907E-02  1.99005E+06
+
+Structure of a model star of mass   1.00000E+00 solar masses
+ and radius   3.57390E+03 Mm, with gamma =   1.66667E+00
+ for which the central density, pressure, and temperature are:   5.71658E-05,   1.11328E+00, and   1.17965E+00
+ and for which the surface density, pressure, and temperature are:   3.35621E-07,   2.12711E-04, and   3.83907E-02
+
+
