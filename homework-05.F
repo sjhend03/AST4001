@@ -64,7 +64,7 @@ c      nx = 128
 c      ny = 128
 c      nz = 128
 c
-      ifdebug = 0
+      ifdebug = 1
       call initradprofile(radl, gravradl, rhoradl, prsradl,
      &                          fvradl, fvairradl, fvrradl, fvrr2radl,
      &                          fmassradl, gravc, fheat, rhoconvradl,
@@ -1634,8 +1634,9 @@ c     YOU MAY CALL OTHER ROUTINES IF YOU WISH IN ORDER TO DO THAT.
 c
       call getp(rho,T,amu,Rgasconst,radconst,
      &          p)
-      u = (3. / 2.) * (Rgasconst / amu) * T + (radconst*T**4) / rho
-      rhoCpT = (rho * u + 3*a*T**4) + 3*a*T**4((p + radconst*T**4) / (3*p-Rgasconst*T**4))
+      u = (3. / 2.) * (Rgasconst / amu) * T + ((radconst*T**4.) / rho)
+      rhoCpT = (rho * u + 3*radconst*T**4.) + 3.*radconst*T**4.*((p + radconst*T**4.) / 
+     &         (3*p-Rgasconst*T**4))
       return
       end subroutine getrhoCpT
 c
@@ -1850,9 +1851,10 @@ c     YOU MAY USE THE FORMULA INCLUDED IN THE INSTRUCTIONS.
 c
       u = (3. / 2.) * (Rgasconst / amu) * T + (radconst*T**4.) / rho
       call getp(rho,T,amu,Rgasconst,radconst,
-    &          p)
+     &         p)
 
-      dTdpad = (p * (p + radconst*T**4.)) / ((p = (1. / 3.)*radconst*T**4)(rho * u + 3.*radconst*T**4) + (p + radconst*T**4.))
+      dTdpad = (p * (p + radconst*T**4.)) / ((p * (1. / 3.)*radconst*T**
+     &          4)*(rho * u + 3.*radconst*T**4) + (p + radconst*T**4.))
       return
       end subroutine getdTdpad
 c
@@ -1877,11 +1879,14 @@ c     take a square root (or the 3/2 power) of a negative number.
 c
       call getrhoCpT(rho,T,amu,Rgasconst,radconst,gamma,
      &               rhoCpT)
-      superadTgrad = 
+      call getdTdpad(rho,T,amu,Rgasconst,radconst,gamma,
+     &               dTdpad)
+      superadTgrad = ((pi*(Ti+1 - Ti-1))/(Ti*(pi1 - pi-1)) - dTpad)
+      a = 1.6
       if (ineedconvflux == 0)   then
        convfluxl = 0.
       else
-       convfluxl = rhoCpT * sqrt(p / rho) * (()-())**(3. / 2.) * a**2
+       convfluxl = rhoCpT * sqrt(p / rho) * superadTgrad**(3. / 2.)
 c     2.56 is the square of the mixing length parameter, 1.6
 c     A leading factor of 4. comes from the area of a horizontal slab.
       endif
@@ -1905,7 +1910,7 @@ c     YOU MAY CALL OTHER ROUTINES IF YOU WISH IN ORDER TO DO THAT.
 c     YOU MAY USE THE FORMULA INCLUDED IN THE INSTRUCTIONS.
 c
       cappal = cappa00/(rl**cappapwr)
-      radfluxl = 
+      radfluxl = 10.
       return
       end subroutine getradfluxl
 c
