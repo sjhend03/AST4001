@@ -437,7 +437,7 @@ c     pi = you guessed it.
 c     G = Newton's constant of universal gravitation.
 c     A = the adiabatic invariant in the equation of state.
 c         p = A * (rho**gamma)
-c     gamma = see EOS above.
+c     gamma = see equation of state above.
 c     amuc = the mean molecular weight at the center of the model.
 c            This same value is assumed to apply throughout the model.
 c     rgasconst = the gas constant relating (p/rho) to temperature.
